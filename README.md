@@ -1,2 +1,2 @@
-# Drink-Reminder
+# DrinkReminder
  
