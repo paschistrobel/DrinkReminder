@@ -44,7 +44,7 @@ void initValues(){
 
 // method for sound
 void beep(){
-		tone(SPEAKER_PIN, TONE_FREQUENCY, TONE_DURATION);
+	tone(SPEAKER_PIN, TONE_FREQUENCY, TONE_DURATION);
 }
 // pixel runs from left to right of the strip
 void runningPixel(Adafruit_NeoPixel &strip, uint32_t color, int wait){
