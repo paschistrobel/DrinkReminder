@@ -83,9 +83,11 @@ void pulse() {  // measure the quantity of square waves
 
 void initObjects(){
 	bottleStrip.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+	bottleStrip.clear();
 	bottleStrip.show(); // Turn OFF all pixels ASAP
 	bottleStrip.setBrightness(LED_BRIGHTNESS); // Set BRIGHTNESS to about 1/5 (max = 255)
 	glassStrip.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+	glassStrip.clear();
 	glassStrip.show(); // Turn OFF all pixels ASAP
 	glassStrip.setBrightness(LED_BRIGHTNESS); // Set BRIGHTNESS to about 1/5 (max = 255)
 }

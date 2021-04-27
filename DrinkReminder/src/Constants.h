@@ -11,7 +11,7 @@
 //LED strips
 #define BOTTLE_STRIP_COUNT 11
 #define GLASS_STRIP_COUNT 12
-#define LED_BRIGHTNESS 255
+#define LED_BRIGHTNESS 100
 
 //Speaker
 #define TONE_FREQUENCY 300
