@@ -26,10 +26,11 @@ The upper box is attached to the upper end of the connector. This is where the w
 
 ## Circuit/ Breadboard
 ![Circuit sketch - created with Fritzing](./docs/img/circuit.png)
-Sketch of the circuit. The labels D2, A2, etc. represent the digital and analog pins of the Arduino micro. Resistor and capacitor values can be seen in the figure. The water pump is controlled via the Arduino using the transistor. To prevent the inductive voltage pulse on turnoff of the water pump, a flyback diode was connected in parallel. 
+*Sketch of the circuit. The labels D2, A2, etc. represent the digital and analog pins of the Arduino micro. Resistor and capacitor values can be seen in the figure. The water pump is controlled via the Arduino using the transistor. To prevent the inductive voltage pulse on turnoff of the water pump, a flyback diode was connected in parallel.*
+
 
 ![Breadboard sketch - created with Fritzing](./docs/img/breadboard.png)
-Sketch of the circuit on the breadboard. The batteries represent the 12V power supply.
+*Sketch of the circuit on the breadboard. The batteries represent the 12V power supply.*
 
 ## Links to the built-in compenents
 - Microcontroller (Arduino Mikro): https://store.arduino.cc/arduino-micro
