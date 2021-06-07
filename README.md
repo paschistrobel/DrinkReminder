@@ -12,8 +12,7 @@ In addition, the TrinkReminder contains a protective mechanism that switches off
 Since the device is primarily intended for use in concentration phases, which usually take place at the desk in front of the PC, the design was chosen accordingly. The device should therefore take up as little work surface as possible, which is why it was built more vertically than horizontally. In addition, the glass and the water bottle must be secured so that they cannot be spilled every time they are touched, which could ultimately have fatal consequences in the workplace. For this reason, the glass was embedded approx. 1.5 cm into the storage platform and a holder for the bottle was attached to the side of the base. These two protective measures have two other advantages at the same time. On the one hand, they give the device a certain affordance and thus support the user in correctly placing the glass and bottle. On the other hand, this created additional space that can be used for further user feedback in the form of LED strips.
 
 ## Implementation
-
-Bilder hier einfügen
+![Image of the final prototype](./docs/img/prototype.png)
 
 The case of the prototype is made entirely of wood. It can be roughly divided into three parts. In the following they are referred to as "lower box", "connector" and "upper box".
 
@@ -23,14 +22,13 @@ The connector is attached to the back of the lower box. The hollow interior allo
 
 The upper box is attached to the upper end of the connector. This is where the water flow sensor is located, via which the water hoses of the bottle and those of the glass are connected to one another. The Waterflow Sensor is used to measure the amount of water that has flowed through the hose and thus enables the glass to be filled precisely with the desired amount of water. At the end of the hose that is to be placed in the water bottle, there is the water pump, which is used as a submersible pump.
 
-Here is a video that demonstrates the functionality of the prototype. https://drive.google.com/file/d/1NYYfiuUKreTmq-CTUE_9-hm8xS0JJWKC/view?usp=sharing
+[Here](https://drive.google.com/file/d/1NYYfiuUKreTmq-CTUE_9-hm8xS0JJWKC/view?usp=sharing) is a video that demonstrates the functionality of the prototype.
 
 ## Circuit/ Breadboard
-Bild Circuit
-
+![Circuit sketch - created with Fritzing](./docs/img/circuit.png)
 Sketch of the circuit. The labels D2, A2, etc. represent the digital and analog pins of the Arduino micro. Resistor and capacitor values can be seen in the figure. The water pump is controlled via the Arduino using the transistor. To prevent the inductive voltage pulse on turnoff of the water pump, a flyback diode was connected in parallel. 
 
-Bild Breadboard
+![Breadboard sketch - created with Fritzing](./docs/img/breadboard.png)
 Sketch of the circuit on the breadboard. The batteries represent the 12V power supply.
 
 ## Links to the built-in compenents
