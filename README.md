@@ -40,4 +40,4 @@ The upper box is attached to the upper end of the connector. This is where the w
 - Waterflow sensor: https://www.robotics.org.za/YF-S401
 - Water pump: https://www.pollin.de/productdownloads/D330056D.PDF
 - Transistor: https://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
-- Voltage reulator module: https://www.pollin.de/productdownloads/D351560D.PDF
+- Voltage regulator module: https://www.pollin.de/productdownloads/D351560D.PDF
