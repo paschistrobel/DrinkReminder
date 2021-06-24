@@ -33,7 +33,7 @@ The upper box is attached to the upper end of the connector. This is where the w
 *Sketch of the circuit on the breadboard. The batteries represent the 12V power supply.*
 
 ## Links to the built-in compenents
-- Microcontroller (Arduino Mikro): https://store.arduino.cc/arduino-micro
+- Microcontroller (Arduino Micro): https://store.arduino.cc/arduino-micro
 - LED-Strips: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 - Pressure sensor: https://www.trossenrobotics.com/productdocs/2010-10-26-DataSheet-FSR402-Layout2.pdf
 - Speaker: https://cdn-reichelt.de/documents/datenblatt/I900/VIS_K40SQ.pdf
