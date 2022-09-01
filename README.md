@@ -22,8 +22,6 @@ The connector is attached to the back of the lower box. The hollow interior allo
 
 The upper box is attached to the upper end of the connector. This is where the water flow sensor is located, via which the water hoses of the bottle and those of the glass are connected to one another. The Waterflow Sensor is used to measure the amount of water that has flowed through the hose and thus enables the glass to be filled precisely with the desired amount of water. At the end of the hose that is to be placed in the water bottle, there is the water pump, which is used as a submersible pump.
 
-[Here](https://drive.google.com/file/d/1NYYfiuUKreTmq-CTUE_9-hm8xS0JJWKC/view?usp=sharing) is a video that demonstrates the functionality of the prototype.
-
 ## Circuit
 ![Circuit sketch - created with Fritzing](./docs/img/circuit.png)
 *Sketch of the circuit. The labels D2, A2, etc. represent the digital and analog pins of the Arduino micro. Resistor and capacitor values can be seen in the figure. The water pump is controlled via the Arduino using the transistor. To prevent the inductive voltage pulse on turnoff of the water pump, a flyback diode was connected in parallel.*
